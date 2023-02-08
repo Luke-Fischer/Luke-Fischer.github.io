@@ -1,5 +1,8 @@
-h1{
-    font-size: 33px;
+.titleHeader{
+    font-family: 'Courier New', monospace;
+    font-size: 60px;
+    top: 30px;
+    color: white;
 }
 
 img {
@@ -8,9 +11,179 @@ img {
     border: 5px solid Silver;
     width: 300px;
     height: 300px;
-    right: -70%;
+    right: -60%;
+    top: 42px;
 }
 
 body {
-    background-color: #708090;
+    background-color: #303030;
+    width: 99%;
+    height: 99%;
+}
+
+div{
+    position: absolute;
+    left: 20%;
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+h2{
+    font-size: 45px;
+    font-family: 'Courier New', monospace;
+    color:#A8A8A8;
+}
+
+h3{
+  font-size: 30px;
+  font-family: 'Courier New', monospace;
+  color:#A8A8A8;
+
+}
+
+p{
+  position: absolute;
+  top: 470px;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: #F6EDED;
+  left: 20%;
+  margin-right: 40%;
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #303030; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-right: 2px solid #585858;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .h_line {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px solid rgb(80, 80, 78);
+    top: 400px;
+    left: 330px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.btn{
+  position: relative;
+  top: -250px;
+  left: 70%;
+  height: 150px;
+  width: 150px;
+  background-color: #303030;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+  border: 1px solid white;
+}
+
+.btn:hover{
+  transform: scale(1.15);
+  background-color: white;
+  color: grey;
+}
+
+#mailIcon{
+  position: relative;
+  top: 226px;
+  left: 46%;
+  width: 40px;
+  height: 40px;
+  border-width: 0px;
+}
+
+#mailLink{
+  position: relative;
+  top: 213.5px;
+  left: 46.7%;
+  color: grey;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+}
+
+#linkedIcon{
+  position: relative;
+  top: 290px;
+  left: 29.8%;
+  width: 40px;
+  height: 40px;
+  border-width: 0px;
+}
+
+#linkedIn{
+  position: relative;
+  top: 273px;
+  left: 30.5%;
+  color: grey;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
+}
+
+#mailLink:hover,
+#linkedIn:hover,
+#github:hover{
+  background-color: white;
+  color: grey;
+}
+
+#githubIcon{
+  position: relative;
+  top: 350px;
+  left: 19.9%;
+  width: 40px;
+  height: 40px;
+  border-width: 0px;
+}
+
+#github{
+  position: relative;
+  top: 330px;
+  left: 20.6%;
+  color: grey;
+  font-size: 18px;
+  font-family: 'Courier New', monospace;
 }
