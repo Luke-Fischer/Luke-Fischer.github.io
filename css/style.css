@@ -128,36 +128,36 @@ p{
 }
 
 #mailIcon{
-  position: relative;
-  top: 226px;
-  left: 46%;
+  position: absolute;
+  top: 54%;
+  left: 68.8%;
   width: 40px;
   height: 40px;
   border-width: 0px;
 }
 
 #mailLink{
-  position: relative;
-  top: 213.5px;
-  left: 46.7%;
+  position: absolute;
+  top: 55%;
+  left: 71.5%;
   color: grey;
   font-size: 18px;
   font-family: 'Courier New', monospace;
 }
 
 #linkedIcon{
-  position: relative;
-  top: 290px;
-  left: 29.8%;
+  position: absolute;
+  top: 61%;
+  left: 68.8%;
   width: 40px;
   height: 40px;
   border-width: 0px;
 }
 
 #linkedIn{
-  position: relative;
-  top: 273px;
-  left: 30.5%;
+  position: absolute;
+  top: 62%;
+  left: 71.5%;
   color: grey;
   font-size: 18px;
   font-family: 'Courier New', monospace;
@@ -171,18 +171,18 @@ p{
 }
 
 #githubIcon{
-  position: relative;
-  top: 350px;
-  left: 19.9%;
+  position: absolute;
+  top: 68%;
+  left: 68.8%;
   width: 40px;
   height: 40px;
   border-width: 0px;
 }
 
 #github{
-  position: relative;
-  top: 330px;
-  left: 20.6%;
+  position: absolute;
+  top: 68.8%;
+  left: 71.5%;
   color: grey;
   font-size: 18px;
   font-family: 'Courier New', monospace;
