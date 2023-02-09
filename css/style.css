@@ -53,7 +53,7 @@ p{
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 9%; /* Set the width of the sidebar */
+    width: 11%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -62,6 +62,8 @@ p{
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     border-right: 2px solid #585858;
+    font-family: 'Courier New', monospace;
+    font-size: 1.5vw;
   }
   
   /* The navigation menu links */
@@ -139,7 +141,7 @@ p{
   top: 27.1vw;
   left: 72vw;
   color: grey;
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-family: 'Courier New', monospace;
 }
 
@@ -157,7 +159,7 @@ p{
   top: 30.35vw;
   left: 72vw;
   color: grey;
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-family: 'Courier New', monospace;
 }
 
@@ -182,7 +184,7 @@ p{
   top: 33.7vw;
   left: 72vw;
   color: grey;
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-family: 'Courier New', monospace;
 }
 
