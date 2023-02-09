@@ -187,3 +187,8 @@ p{
   font-size: 18px;
   font-family: 'Courier New', monospace;
 }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
