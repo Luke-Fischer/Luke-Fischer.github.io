@@ -44,7 +44,6 @@ p{
   top: 25vw;
   font-size: 1vw;
   font-family: 'Courier New', monospace;
-  font-size: 20px;
   color: #F6EDED;
   left: 20%;
   margin-right: 2%;
@@ -104,8 +103,8 @@ p{
 
 .btn{
   position: relative;
-  top: -250px;
-  left: 70%;
+  top: -12vw;
+  left: 68vw;
   height: 150px;
   width: 150px;
   background-color: #303030;
@@ -128,37 +127,37 @@ p{
 
 #mailIcon{
   position: absolute;
-  top: 54%;
-  left: 68.8%;
-  width: 40px;
-  height: 40px;
+  top: 26.5vw;
+  left: 68.8vw;
+  width: 2.5vw;
+  height: 2.5vw;
   border-width: 0px;
 }
 
 #mailLink{
   position: absolute;
-  top: 55%;
-  left: 71.5%;
+  top: 27.1vw;
+  left: 72vw;
   color: grey;
-  font-size: 18px;
+  font-size: 1vw;
   font-family: 'Courier New', monospace;
 }
 
 #linkedIcon{
   position: absolute;
-  top: 61%;
-  left: 68.8%;
-  width: 40px;
-  height: 40px;
+  top: 29.8vw;
+  left: 68.8vw;
+  width: 2.5vw;
+  height: 2.5vw;
   border-width: 0px;
 }
 
 #linkedIn{
   position: absolute;
-  top: 62%;
-  left: 71.5%;
+  top: 30.35vw;
+  left: 72vw;
   color: grey;
-  font-size: 18px;
+  font-size: 1vw;
   font-family: 'Courier New', monospace;
 }
 
@@ -171,19 +170,19 @@ p{
 
 #githubIcon{
   position: absolute;
-  top: 68%;
-  left: 68.8%;
-  width: 40px;
-  height: 40px;
+  top: 33.1vw;
+  left: 68.8vw;
+  width: 2.5vw;
+  height: 2.5vw;
   border-width: 0px;
 }
 
 #github{
   position: absolute;
-  top: 68.8%;
-  left: 71.5%;
+  top: 33.7vw;
+  left: 72vw;
   color: grey;
-  font-size: 18px;
+  font-size: 1vw;
   font-family: 'Courier New', monospace;
 }
 
