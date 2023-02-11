@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper{
+    width: 100%;
+}
+body {
+    background-color: #303030;
+}
+
+#intro_text{
+    width: 70%;
+    float: right;
+    position: absolute;
+    left: 25%;
+}
+#intro_text p{
+    font-family: 'Courier New', monospace;
+    color: #F6EDED;
+    font-size: 28px;
+}
+
+#uog_logo{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 60px;
+    height: 80px;
+    border: 2px solid grey;
+}
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width:100%;
+
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+/*This is for non-mobile*/
+ @media screen and (min-width: 768px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 5px;
+    }
+}

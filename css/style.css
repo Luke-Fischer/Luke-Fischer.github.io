@@ -4,6 +4,7 @@
     color: white;
 }
 
+
 img {
   position: relative;
   border-radius: 50%;
@@ -20,7 +21,7 @@ body {
     height: 99%;
 }
 
-div{
+.headers{
     position: absolute;
     left: 20%;
     display: inline-block;
@@ -39,15 +40,15 @@ h3{
 
 }
 
+
 p{
   position: absolute;
   top: 25vw;
-  font-size: 1.3rem;
+  font-size: 1vw;
   font-family: 'Courier New', monospace;
   color: #F6EDED;
+  width: 40%;
   left: 20%;
-  margin-right: 2%;
-  margin-right: 40%;
 }
 
 /* The sidebar menu */
@@ -63,14 +64,13 @@ p{
     padding-top: 20px;
     border-right: 2px solid #585858;
     font-family: 'Courier New', monospace;
-    font-size: 1.5vw;
   }
   
   /* The navigation menu links */
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 1.6vw;
+    font-size: 30px;
     color: #818181;
     display: block;
   }
@@ -87,10 +87,10 @@ p{
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+  /*@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+  }*/
 
   .h_line {
     position: absolute;
