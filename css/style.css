@@ -263,17 +263,72 @@ p a{
 
 /*laptops and desktops*/
 @media screen and (min-width: 1025px) {
-    ul.navbar a{
-        margin-left: 75px;
+    .propj_text{
+        color: #1F305E;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    p{
+        color: #1F305E;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    #intro_text p{
+        font-family: 'Courier New', monospace;
+        color: #F6EDED;
+        font-size: 50px;
+        float: left;
+    }
+
+    .date_stamps{
+        font-size: 17px; 
+        font-weight: 900;
+    }
+    
+    .title_text{
+        font-size: 23px; 
+        font-weight: 600;
+    }
+    
+    .company_text{
+        font-size: 19px; 
+        font-weight: 300;
+    }
+
+    ul.navbar{
+        z-index:999;
+        margin-top: 0 !important;
+        top: 0 !important;
+        position: sticky;
+        list-style-type: none;
+        margin-left: 0;
+        padding: 0;
+        /*overflow: hidden;*/
+        background-color: white;
+        width:100%;
+        border-bottom: 1px solid black;
+    }
+      
+      li.navbar {
+        position: sticky;
+        display: inline-block;
+    }
+      
+      li.navbar a {
+        margin-left: 168px;
         position: sticky;
         display: inline-block;
         color: white;
         text-align: center;
-        padding: 2px 15px;
+        padding: 20px 2px;
         text-decoration: none;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: #1F305E;
         font-weight: bold;
+        font-size: 25px;
     }
      
     .proj_wrapper{
@@ -323,16 +378,21 @@ p a{
     .rp1{
         position: relative;
         top: -10%;
-        left: 16%;
+        left: 29%;
     }
     .rp2{
         position: relative;
         top: 8%;
-        left: 16%;
+        left: 29%;
     }
     .rp3{
         position: relative;
         top: 0%;
-        left: 16%;
+        left: 29%;
+    }
+
+    .footer p,
+    .footer a{
+        font-size: 16px;
     }
 }
