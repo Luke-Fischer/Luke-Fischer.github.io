@@ -3,6 +3,22 @@
     margin: 0px;
 }
 
+.ad_container{
+    position: relative;
+    width:90%;
+    height: auto;
+    margin: 5% 5%;
+    overflow: auto;
+    display: block;
+}
+
+#ad_logo{
+    width: 250px;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .proj_container{
     position: relative;
     display: block;
@@ -405,5 +421,10 @@ p a{
     .footer p,
     .footer a{
         font-size: 16px;
+    }
+
+    #ad_logo{
+        width: 280px;
+        height: 70px;
     }
 }
