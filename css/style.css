@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+#mon_img{
+    width: 150px;
+    width: 200px;
+}
+
 .ad_container{
     position: relative;
     width:90%;
@@ -430,5 +435,8 @@ p a{
     #ad_logo{
         width: 280px;
         height: 70px;
+    }
+    #mon_img{
+        width: 350px; height: 250px;
     }
 }
