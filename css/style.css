@@ -7,9 +7,13 @@
     position: relative;
     width:90%;
     height: auto;
-    margin: 5% 5%;
+    margin: 2.5% 5%;
     overflow: auto;
     display: block;
+}
+
+ol li{
+    text-decoration: double;
 }
 
 #ad_logo{
